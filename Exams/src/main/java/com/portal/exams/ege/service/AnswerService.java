@@ -26,7 +26,7 @@ public class AnswerService {
 		ResponseModel response = new ResponseModel();
 
 		try {
-			String answerID = getAnswerId(); 
+			String answerID = getAnswerId();
 
 			if (answerWrapper == null || "".equals(answerWrapper))
 				throw new NullPointerException("Kaydedilecek Data Bulunamadı");
